@@ -1,10 +1,12 @@
-
+body {
+    font-family: Helvetica;
+}
 a {
     text-decoration: none;
     color: rgba(34, 143, 255, 0.42);
 }
 #container{
-    width: 1000px;
+    width: 100%;
 align-content: center;
     margin: auto;
 
@@ -12,8 +14,10 @@ align-content: center;
 
 
 #header {
-    background-color: #eeeeee;
+
+    width: 400px;
     text-align: center;
+    padding-top: 100px;
 }
 
 #banner {
@@ -21,11 +25,16 @@ align-content: center;
 }
 
 #content {
-    ;
+    height: 400px;
+    width: 100%;
+
+
+
 }
 
 #nav {
-    width: 150px;
+
+    width: 400px;
     margin-top: 25px;
     text-align: center;
     float: left;
@@ -38,13 +47,14 @@ align-content: center;
 
 #main {
     width: 800px;
+    margin-right: 400px;
     float: right;
 
 }
 
 #bottomcontent {
 clear: both;
-    background-color: #eeeeee;
+    background-color: #7FA48F;
     width: 100%;
     height: 100px;
     text-align: center;
