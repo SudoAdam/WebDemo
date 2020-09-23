@@ -12,8 +12,13 @@ public class theController {
     public String hello() { return "Hello World";}
 
     @GetMapping("/pagedemo")
-    public String content() {
+    public String styleOne() {
         return ("pagedemo");
+    }
+
+    @GetMapping("/pagedemo2")
+    public String styleTwo() {
+        return ("pagedemo2");
     }
 
 }
