@@ -17,9 +17,10 @@ public class theController {
     }
 
     @GetMapping("/pagedemo2")
-    public String styleTwo() {
-        return ("pagedemo2");
-    }
+    public String styleTwo() { return ("pagedemo2"); }
+
+    @GetMapping("/pagedemo3")
+    public String styleThree() { return ("pagedemo3"); }
 
 }
 

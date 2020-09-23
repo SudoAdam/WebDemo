@@ -6,7 +6,7 @@ a {
     color: rgba(34, 143, 255, 0.42);
 }
 #container{
-    width: 100%;
+    width: 60%;
 align-content: center;
     margin: auto;
 
@@ -46,8 +46,7 @@ align-content: center;
 }
 
 #main {
-    width: 800px;
-    margin-right: 400px;
+    width: 600px;
     float: right;
 
 }

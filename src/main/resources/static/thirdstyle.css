@@ -1,19 +1,26 @@
-
+body {
+    font-family: Helvetica;
+}
 a {
     text-decoration: none;
     color: rgba(34, 143, 255, 0.42);
 }
+
+
+
 #container{
+    background-color: #eeeeee;
     width: 60%;
-align-content: center;
+    align-content: center;
     margin: auto;
 
 }
 
-
 #header {
-    background-color: #eeeeee;
+    padding-top: 50px;
+    width: 400px;
     text-align: center;
+    float: left;
 }
 
 #banner {
@@ -23,14 +30,14 @@ align-content: center;
 #content {
     height: 400px;
     width: 100%;
-    padding: 50px;
+    margin-top: 50px;
 }
 
 #nav {
-    width: 150px;
-    margin-top: 25px;
+padding-top: 50px;
+    width: 400px;
     text-align: center;
-    float: left;
+    float: right;
 }
 
 .current {
@@ -39,15 +46,18 @@ align-content: center;
 }
 
 #main {
-    width: 600px;
-    float: right;
-    margin-right: 200px;
+
+    clear: both;
+    height: 200%;
+    width: 400px;
+    text-align: center;
+    margin:auto;
+    padding: 50px;
 
 }
 
 #bottomcontent {
-clear: both;
-    background-color: #eeeeee;
+    margin-top: 150px;
     width: 100%;
     height: 100px;
     text-align: center;
@@ -74,5 +84,5 @@ clear: both;
     padding: 10px;
     background-color: #696969;
     color: #ffffff;
-
 }
+
