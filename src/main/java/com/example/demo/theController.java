@@ -7,10 +7,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class theController {
 
-    @GetMapping("/")
+    @GetMapping
     @ResponseBody
-    public String hello() {
-        return "Hello World";
+    public String hello() { return "Hello World";}
+
+    @GetMapping("/content")
+    public String content() {
+        return ("content");
     }
 
 }
