@@ -2,6 +2,7 @@
 #container{
     width: 700px;
 align-content: center;
+    margin: auto;
 }
 
 
@@ -11,19 +12,43 @@ align-content: center;
 }
 
 #content {
-    padding: 20px 20px 20px 20px;
+
 }
 
 #nav {
-    width: 100px;
+    background-color: #eeeeee;
+    width: 150px;
+    margin-top: 25px;
+    text-align: center;
     float: left;
 }
 
 #main {
-    width: 500px;
+    width: 450px;
     float: right;
+
+}
+
+#bottomcontent {
+
+}
+
+#left {
+  text-align: center;
+    float: left;
+}
+
+#middle {
+float: inside;
+
+}
+
+#right {
+    float: right;
+
 }
 
 #footer {
+    padding-top: 50px;
 clear: both;
 }
