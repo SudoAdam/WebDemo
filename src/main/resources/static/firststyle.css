@@ -1,0 +1,29 @@
+
+#container{
+    width: 700px;
+align-content: center;
+}
+
+
+#header {
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+#content {
+    padding: 20px 20px 20px 20px;
+}
+
+#nav {
+    width: 100px;
+    float: left;
+}
+
+#main {
+    width: 500px;
+    float: right;
+}
+
+#footer {
+clear: both;
+}
