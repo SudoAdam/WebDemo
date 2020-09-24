@@ -11,6 +11,11 @@ public class theController {
     @ResponseBody
     public String hello() { return "Hello World";}
 
+    @GetMapping("/pagestyle")
+    public String style() {
+        return ("pagestyle");
+    }
+
     @GetMapping("/pagedemo")
     public String styleOne() {
         return ("pagedemo");
