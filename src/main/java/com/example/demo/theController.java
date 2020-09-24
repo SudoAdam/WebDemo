@@ -11,9 +11,9 @@ public class theController {
     @ResponseBody
     public String hello() { return "Hello World";}
 
-    @GetMapping("/pagestyle")
+    @GetMapping("/pagedemo4")
     public String style() {
-        return ("pagestyle");
+        return ("pagedemo4");
     }
 
     @GetMapping("/pagedemo")

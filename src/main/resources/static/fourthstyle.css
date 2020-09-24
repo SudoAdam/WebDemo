@@ -1,0 +1,30 @@
+body {
+    background-color: #012143;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+container {
+
+    height: 300px;
+
+}
+
+#header {
+    width: 100%;
+    background-color: goldenrod;
+    font-family: Calibri;
+    font-size: 500%;
+    color: white;
+    float: left;
+}
+
+#menu {
+    color: white;
+    float: right;
+    font-size: 300%;
+    font-family: Calibri;
+    padding-bottom: 50px;
+  }
